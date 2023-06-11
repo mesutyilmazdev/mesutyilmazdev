@@ -6,9 +6,9 @@ const Content = () => {
   return (
   <div className="flex flex-col mx-auto items-center">
         <div className='mb-5 animate__animated animate__slideInDown animate__delay-.5s'>
-          <Link href="mailto:mesutyilmazdev@gmail.com" passHref>
+          <Link href="mailto:info@mesutyilmaz.dev" passHref>
           <a className='flex text-xl text-white hover:underline decoration-gray-900 decoration-wavy ease-in-out duration-300'>
-          <i className='bi bi-envelope-paper-heart mr-2'/>mesutyilmazdev@gmail.com</a>
+          <i className='bi bi-envelope-paper-heart mr-2'/>info@mesutyilmaz.dev</a>
           </Link>
         </div>
 
