@@ -21,7 +21,7 @@ const Footer = () => {
 
         <Link href="https://www.threads.net/@mesutyilmazdev" passHref>
           <Tippy content="Threads">
-            <a href="https://www.threads.net/@mesutyilmazdev" rel="noreferrer" target="_blank"><i className='bi bi-threads text-gray-300 border border-gray-300 hover:bg-gray-300 hover:text-[#273767] focus:ring-4 rounded-full p-3 inline-flex items-center m-2 cursor-pointer ease-in-out duration-300' /></a>
+            <a href="https://www.threads.net/@mesutyilmazdev" rel="noreferrer" target="_blank"><i className='bi bi-hand-index text-gray-300 border border-gray-300 hover:bg-gray-300 hover:text-[#273767] focus:ring-4 rounded-full p-3 inline-flex items-center m-2 cursor-pointer ease-in-out duration-300' /></a>
           </Tippy>
         </Link>
 
