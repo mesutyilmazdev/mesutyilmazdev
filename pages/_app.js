@@ -2,6 +2,7 @@ import Head from 'next/head'
 import '../styles/globals.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'animate.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps }) {
         
       </Head>
       <Component {...pageProps} />
+      <GoogleAnalytics gaId="G-PFNQT0LP7R" />
     </div>
   ) 
 }
