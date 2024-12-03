@@ -19,16 +19,6 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content="Freelance / Remote full stack developer & designer" />
         <meta property="og:image" content="/mesutyilmaz.jpg" />
         <meta property="og:url" content="http://www.mesutyilmaz.dev" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PFNQT0LP7R"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-PFNQT0LP7R');
-    </script>
         
       </Head>
       <Component {...pageProps} />
