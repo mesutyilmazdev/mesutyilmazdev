@@ -43,12 +43,6 @@ const Footer = () => {
           </Tippy>
         </Link>
 
-        <Link href="https://superpeer.com/mesutyilmaz" passHref>
-          <Tippy content="Schedule a meeting">
-            <a href="https://superpeer.com/mesutyilmaz" rel="noreferrer" target="_blank"><i className='bi bi-calendar2-event text-gray-300 border border-gray-300 hover:bg-gray-300 hover:text-[#273767] focus:ring-4 rounded-full p-3 inline-flex items-center m-2 cursor-pointer ease-in-out duration-300' /></a>
-          </Tippy>
-        </Link>
-
       </div>
 
   );
